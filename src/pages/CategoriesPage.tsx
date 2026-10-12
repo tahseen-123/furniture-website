@@ -1,7 +1,7 @@
 import React from 'react';
 import { PageId } from '../types';
 import { CATEGORIES } from '../data/categories';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 interface CategoriesPageProps {
   onSelectCategory: (categoryId: string) => void;

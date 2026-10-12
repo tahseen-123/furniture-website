@@ -18,9 +18,6 @@ import {
   Hammer,
   ShieldCheck,
   CheckCircle2,
-  Sparkles,
-  Layers,
-  Calendar,
 } from 'lucide-react';
 
 interface HomePageProps {

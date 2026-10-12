@@ -1,16 +1,13 @@
 import React from 'react';
 import { PageId } from '../types';
-import { BUSINESS_INFO, getGeneralWhatsappUrl } from '../utils/whatsapp';
+import { BUSINESS_INFO } from '../utils/whatsapp';
 import {
   MapPin,
-  Phone,
-  MessageCircle,
   Hammer,
   ShieldCheck,
   Ruler,
   CheckCircle2,
   Compass,
-  ArrowRight,
 } from 'lucide-react';
 
 interface AboutPageProps {

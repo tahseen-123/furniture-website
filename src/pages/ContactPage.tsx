@@ -8,7 +8,6 @@ import {
   Send,
   CheckCircle2,
   Navigation,
-  ShieldCheck,
   Building,
 } from 'lucide-react';
 

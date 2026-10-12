@@ -8,15 +8,11 @@ import {
   DoorOpen,
   UtensilsCrossed,
   Truck,
-  Wrench,
   Building2,
   Home,
   RefreshCw,
   MessageCircle,
   Phone,
-  ArrowRight,
-  ShieldCheck,
-  CheckCircle2,
 } from 'lucide-react';
 
 interface ServicesPageProps {

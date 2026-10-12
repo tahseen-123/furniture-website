@@ -6,7 +6,6 @@ import { MessageCircle, Eye, Hammer, Sparkles } from 'lucide-react';
 interface ProductCardProps {
   product: Product;
   onViewDetails: (product: Product) => void;
-  onOpenQuote?: (product: Product) => void;
 }
 
 export const ProductCard: React.FC<ProductCardProps> = ({

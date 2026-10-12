@@ -4,13 +4,9 @@ import { GALLERY_PROJECTS } from '../data/projects';
 import { BUSINESS_INFO, getSiteVisitWhatsappUrl } from '../utils/whatsapp';
 import {
   MapPin,
-  Clock,
-  Hammer,
-  Layers,
   MessageCircle,
   Phone,
   X,
-  Sparkles,
   Info,
 } from 'lucide-react';
 

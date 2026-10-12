@@ -5,12 +5,7 @@ import {
   X,
   MessageCircle,
   CheckCircle2,
-  AlertCircle,
   FileText,
-  MapPin,
-  Calendar,
-  Layers,
-  Sparkles,
 } from 'lucide-react';
 
 interface QuoteRequestModalProps {

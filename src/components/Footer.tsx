@@ -2,7 +2,7 @@ import React from 'react';
 import { PageId } from '../types';
 import { BUSINESS_INFO, getGeneralWhatsappUrl } from '../utils/whatsapp';
 import { CATEGORIES } from '../data/categories';
-import { Phone, MessageCircle, MapPin, Mail, ArrowUpRight, ShieldCheck, Hammer, Truck } from 'lucide-react';
+import { Phone, MessageCircle, MapPin, ShieldCheck, Hammer, Truck } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (page: PageId, categoryFilter?: string) => void;

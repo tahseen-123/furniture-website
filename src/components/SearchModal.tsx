@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Product } from '../types';
 import { formatPriceDisplay } from '../utils/whatsapp';
-import { Search, X, ArrowRight, Tag } from 'lucide-react';
+import { Search, X, ArrowRight } from 'lucide-react';
 
 interface SearchModalProps {
   isOpen: boolean;

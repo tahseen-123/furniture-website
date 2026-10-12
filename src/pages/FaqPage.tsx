@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FAQS } from '../data/faqs';
 import { getGeneralWhatsappUrl, BUSINESS_INFO } from '../utils/whatsapp';
-import { ChevronDown, MessageCircle, Phone, HelpCircle } from 'lucide-react';
+import { ChevronDown, MessageCircle, Phone } from 'lucide-react';
 
 export const FaqPage: React.FC = () => {
   const [openId, setOpenId] = useState<string | null>('faq-1');

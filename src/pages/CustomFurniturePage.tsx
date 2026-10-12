@@ -2,16 +2,12 @@ import React, { useState } from 'react';
 import { QuoteFormData } from '../types';
 import { generateQuoteWhatsappUrl, BUSINESS_INFO, getCustomFurnitureWhatsappUrl } from '../utils/whatsapp';
 import {
-  Sparkles,
   CheckCircle2,
   MessageCircle,
-  Phone,
   Ruler,
   Layers,
   Palette,
   Clock,
-  Shield,
-  FileText,
 } from 'lucide-react';
 
 export const CustomFurniturePage: React.FC = () => {
